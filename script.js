@@ -4,7 +4,7 @@ const ctx = canvas.getContext("2d");
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
-let characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
+let characters = ".";
 characters = characters.split("");
 
 let fontSize = 16;
@@ -45,3 +45,4 @@ function startMatrix() {
     characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890".split("");
   }
 }
+
